@@ -1,3 +1,4 @@
+import type { ReactElement } from 'react'
 import Image from 'next/image'
 import type { User } from 'next-auth'
 
@@ -5,7 +6,7 @@ type Props = {
   user: User
 }
 
-export default function UserAvatar({ user }: Props) {
+export default function UserAvatar({ user }: Props): ReactElement {
   return (
     <div>
       <Image

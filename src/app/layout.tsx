@@ -1,3 +1,4 @@
+import type { ReactElement } from 'react'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import CurrentUserDetails from '@/components/current-user-details'
@@ -14,7 +15,7 @@ export default function RootLayout({
   children
 }: Readonly<{
   children: React.ReactNode
-}>) {
+}>): ReactElement {
   return (
     <html lang="en">
       <body className={inter.className}>

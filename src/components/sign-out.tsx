@@ -1,6 +1,7 @@
+import type { ReactElement } from 'react'
 import { signOut } from '@/auth'
 
-export default function SignOut() {
+export default function SignOut(): ReactElement {
   return (
     <form
       action={async () => {

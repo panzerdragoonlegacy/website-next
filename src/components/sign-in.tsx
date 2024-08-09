@@ -1,6 +1,7 @@
+import type { ReactElement } from 'react'
 import { signIn } from '@/auth'
 
-export default function SignIn() {
+export default function SignIn(): ReactElement {
   return (
     <form
       action={async () => {
