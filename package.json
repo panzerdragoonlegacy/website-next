@@ -40,5 +40,8 @@
     "stylelint-config-standard": "^36.0.1",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.1"
+  },
+  "engines": {
+    "node": ">=20.17"
   }
 }
