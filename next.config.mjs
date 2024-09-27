@@ -7,7 +7,8 @@ const nextConfig = {
         hostname: 'cdn.discordapp.com'
       }
     ]
-  }
+  },
+  output: 'standalone'
 }
 
 export default nextConfig
